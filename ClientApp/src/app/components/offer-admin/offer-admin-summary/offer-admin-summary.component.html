@@ -1,0 +1,25 @@
+<div class="offer-card shadow">
+    <div class="card-header bg-white border-bottom-0">
+      <p class="h4 font-weight-bold">Create an offer for Toronto East</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p class="border p-3" [hidden]="isEditMode">
+        {{offer.offerItem.offerTitle}}
+        <fa-icon [icon]="faEdit" class="pl-3" (click)="editTitleClick()"></fa-icon>
+      </p>
+
+      <mat-form-field appearance="standard" class="w-100" [hidden]="!isEditMode">
+        <input matInput placeholder="Enter offer title here" [(ngModel)]="offer.offerItem.offerTitle">
+        <mat-icon matSuffix>
+          <fa-icon [icon]="faSave" (click)="editTitleClick()"></fa-icon>
+        </mat-icon>
+      </mat-form-field>
+    </div>
+
+    <div class="card-body p-0">
+      <img mat-card-image [src]="offer.offerItem.imageOfferHeader.fileUrl">
+    </div>
+
+    <div class="card-footer bg-white border-top-0">
+      {{offer.offerItem.offerSummary}}
+    </div>
+</div>

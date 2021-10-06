@@ -1,0 +1,1077 @@
+{
+  "offerItem": {
+    "offerId": 1094010,
+    "accountId": 1090029,
+    "codeOfferStatusId": 1000274,
+    "codeOfferFulfillmentTypeId": 1000136,
+    "codeDiscountTypeId": 1000009,
+    "offerStartDateTime": "2019-08-15T00:00:00Z",
+    "offerEndDateTime": "2019-12-31T00:00:00Z",
+    "offerFullAmount": 250.00,
+    "offerDiscountAmount": 50.00,
+    "offerLastMinuteDiscountAmount": 0.00,
+    "isAllowLastMinuteOffers": false,
+    "lastMinuteWindowTimeframe": null,
+    "couponCode": null,
+    "codeOfferStatusItem": {
+      "codeOfferStatusId": 1000274,
+      "offerStatusCode": "Active",
+      "offerStatusName": "Active",
+      "sequence": 20,
+      "isActive": true,
+      "rowVersion": "AAAAAAAAGn4=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "codeOfferFulfillmentTypeItem": {
+      "codeOfferFulfillmentTypeId": 1000136,
+      "offerFulfillmentTypeCode": "Electronic",
+      "offerFulfillmentTypeName": "Electronic",
+      "sequence": null,
+      "isActive": true,
+      "rowVersion": "AAAAAAAAGiE=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "codeDiscountTypeItem": {
+      "codeDiscountTypeId": 1000009,
+      "discountTypeCode": "Dollar",
+      "discountTypeName": "$ Amount Discount",
+      "discountTypeCharacterCode": "$",
+      "sequence": null,
+      "isActive": true,
+      "rowVersion": "AAAAAAAAGhk=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "noteExtendedOfferTitle": {
+      "noteExtendedId": 1094045,
+      "codeNoteExtendedTypeId": 1000020,
+      "codeObjectTypeId": 1002451,
+      "objectInstanceId": 1094010,
+      "notes": "Deep Tissue 90min - Weekday - 50$ Off",
+      "rowVersion": "AAAAAAAAXXE=",
+      "codeNoteExtendedTypeItem": {
+        "codeNoteExtendedTypeId": 1000020,
+        "noteExtendedTypeCode": "OfferTitle",
+        "noteExtendedTypeName": "Offer Title",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGik=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeObjectTypeItem": {
+        "codeObjectTypeId": 1002451,
+        "objectTypeCode": "NoteExtended",
+        "objectTypeName": "NoteExtended",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGlw=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "offerTitle": "Summer Performance Package",
+    "noteExtendedOfferPitch": {
+      "noteExtendedId": 0,
+      "codeNoteExtendedTypeId": 0,
+      "codeObjectTypeId": 0,
+      "objectInstanceId": 0,
+      "notes": null,
+      "rowVersion": "",
+      "codeNoteExtendedTypeItem": {
+        "codeNoteExtendedTypeId": 0,
+        "noteExtendedTypeCode": null,
+        "noteExtendedTypeName": null,
+        "sequence": null,
+        "isActive": false,
+        "rowVersion": "",
+        "entityState": 0,
+        "propertyChangedList": []
+      },
+      "codeObjectTypeItem": {
+        "codeObjectTypeId": 0,
+        "objectTypeCode": null,
+        "objectTypeName": null,
+        "sequence": null,
+        "isActive": false,
+        "rowVersion": "",
+        "entityState": 0,
+        "propertyChangedList": []
+      },
+      "entityState": 0,
+      "propertyChangedList": []
+    },
+    "offerPitch": null,
+    "noteExtendedOfferSummary": {
+      "noteExtendedId": 1094044,
+      "codeNoteExtendedTypeId": 1000022,
+      "codeObjectTypeId": 1002451,
+      "objectInstanceId": 1094010,
+      "notes": "This deep-tissue treatment offers a comprehensive range of massage modalities that work to break down the body's adhesions and nodules, encouraging proper muscle function.",
+      "rowVersion": "AAAAAAAAXXI=",
+      "codeNoteExtendedTypeItem": {
+        "codeNoteExtendedTypeId": 1000022,
+        "noteExtendedTypeCode": "OfferSummary",
+        "noteExtendedTypeName": "Offer Summary",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGis=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeObjectTypeItem": {
+        "codeObjectTypeId": 1002451,
+        "objectTypeCode": "NoteExtended",
+        "objectTypeName": "NoteExtended",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGlw=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "offerSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "noteExtendedOfferRedemptionInstruction": {
+      "noteExtendedId": 0,
+      "codeNoteExtendedTypeId": 0,
+      "codeObjectTypeId": 0,
+      "objectInstanceId": 0,
+      "notes": null,
+      "rowVersion": "",
+      "codeNoteExtendedTypeItem": {
+        "codeNoteExtendedTypeId": 0,
+        "noteExtendedTypeCode": null,
+        "noteExtendedTypeName": null,
+        "sequence": null,
+        "isActive": false,
+        "rowVersion": "",
+        "entityState": 0,
+        "propertyChangedList": []
+      },
+      "codeObjectTypeItem": {
+        "codeObjectTypeId": 0,
+        "objectTypeCode": null,
+        "objectTypeName": null,
+        "sequence": null,
+        "isActive": false,
+        "rowVersion": "",
+        "entityState": 0,
+        "propertyChangedList": []
+      },
+      "entityState": 0,
+      "propertyChangedList": []
+    },
+    "offerRedemptionInstruction": null,
+    "noteExtendedOfferWarning": {
+      "noteExtendedId": 0,
+      "codeNoteExtendedTypeId": 0,
+      "codeObjectTypeId": 0,
+      "objectInstanceId": 0,
+      "notes": null,
+      "rowVersion": "",
+      "codeNoteExtendedTypeItem": {
+        "codeNoteExtendedTypeId": 0,
+        "noteExtendedTypeCode": null,
+        "noteExtendedTypeName": null,
+        "sequence": null,
+        "isActive": false,
+        "rowVersion": "",
+        "entityState": 0,
+        "propertyChangedList": []
+      },
+      "codeObjectTypeItem": {
+        "codeObjectTypeId": 0,
+        "objectTypeCode": null,
+        "objectTypeName": null,
+        "sequence": null,
+        "isActive": false,
+        "rowVersion": "",
+        "entityState": 0,
+        "propertyChangedList": []
+      },
+      "entityState": 0,
+      "propertyChangedList": []
+    },
+    "offerWarning": null,
+    "imageOfferHeader": {
+      "imageId": 1094540,
+      "accountId": 1090029,
+      "codeImageTypeId": 1000166,
+      "codeObjectTypeId": 1002452,
+      "objectInstanceId": 1094010,
+      "originalFileName": "",
+      "fileName": "1094010OfferHeader.jpg",
+      "filePath": "https://someurl.com/qa01/offer/",
+      "size": 0.0,
+      "height": 0,
+      "width": 0,
+      "uploadedByUserId": 0,
+      "uploadedDateTime": "2019-11-01T14:08:33.083Z",
+      "rowVersion": "AAAAAAAArA4=",
+      "codeImageTypeItem": {
+        "codeImageTypeId": 1000166,
+        "imageTypeCode": "Header",
+        "imageTypeName": "Header",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAG88=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeObjectTypeItem": {
+        "codeObjectTypeId": 1002452,
+        "objectTypeCode": "Offer",
+        "objectTypeName": "Offer",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGl0=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "fileUrl": "https://s3cf.recapguide.com:444/img/tv/389/3x13/The-Grand-Tour-2016-Season-3-Episode-13-1-e88e.jpg",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "isEnded": false,
+    "isStarted": true,
+    "isValidForRedemption": true,
+    "rowVersion": "AAAAAAAAXW8=",
+    "entityState": 2,
+    "propertyChangedList": []
+  },
+  "accountViewItem": {
+    "accountItem": {
+      "accountId": 1090029,
+      "codeLocaleId": 1000015,
+      "accountName": "B4TDemo",
+      "companyName": "B4TDemo",
+      "firstName": "B4T",
+      "lastName": "Demo",
+      "email": "B4TDemo@localhost.com",
+      "isActive": true,
+      "rowVersion": "AAAAAAAASeo=",
+      "codeLocaleItem": {
+        "codeLocaleId": 1000015,
+        "localeCode": "en-US",
+        "localeName": "US English Localization Culture",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgc=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "imageAccountLogo": {
+        "imageId": 1090032,
+        "accountId": 1090029,
+        "codeImageTypeId": 1000165,
+        "codeObjectTypeId": 1002409,
+        "objectInstanceId": 1090029,
+        "originalFileName": "8914_b4t-logo-00.png",
+        "fileName": "8914_b4t-logo-00.png",
+        "filePath": "https://someurl.com/qa01/account/",
+        "size": 412278.00000,
+        "height": 935,
+        "width": 525,
+        "uploadedByUserId": 1,
+        "uploadedDateTime": "2019-09-06T13:03:53.9Z",
+        "rowVersion": "AAAAAAAAWnE=",
+        "codeImageTypeItem": {
+          "codeImageTypeId": 1000165,
+          "imageTypeCode": "Logo",
+          "imageTypeName": "Logo",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAG84=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "codeObjectTypeItem": {
+          "codeObjectTypeId": 1002409,
+          "objectTypeCode": "Account",
+          "objectTypeName": "Account",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGjI=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "fileUrl": "data:image/png;base64,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",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "addressItem": {
+      "addressId": 1090031,
+      "codeCountryAdminDivisionId": 1002321,
+      "codeObjectTypeId": 1002409,
+      "objectInstanceId": 1090029,
+      "addressLine1": "306 Town Centre Blvd",
+      "addressLine2": null,
+      "city": "Markham",
+      "postalCode": "L3R0Y6",
+      "timeZone": null,
+      "latitude": null,
+      "longitude": null,
+      "rowVersion": "AAAAAAAASew=",
+      "codeCountryAdminDivisionItem": {
+        "codeCountryAdminDivisionId": 1002321,
+        "codeCountryId": 1002101,
+        "countryAdminDivisionCode": "ON",
+        "countryAdminDivisionName": "Ontario",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAG5Q=",
+        "codeCountryItem": {
+          "codeCountryId": 1002101,
+          "codeContinentId": 1000368,
+          "codeCurrencyId": 1001931,
+          "countryIso2Code": "CA",
+          "countryIso3Code": "CAN",
+          "countryIsoNumericCode": "124",
+          "countryFipsCode": "CA ",
+          "countryName": "Canada",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGrc=",
+          "codeContinentItem": {
+            "codeContinentId": 1000368,
+            "continentCode": "NA",
+            "continentName": "North America",
+            "sequence": null,
+            "isActive": true,
+            "rowVersion": "AAAAAAAAGos=",
+            "entityState": 2,
+            "propertyChangedList": []
+          },
+          "codeCurrencyItem": {
+            "codeCurrencyId": 1001931,
+            "currencyCode": "CAD",
+            "currencyName": "Dollar (CA)",
+            "sequence": null,
+            "isActive": true,
+            "rowVersion": "AAAAAAAAGX8=",
+            "entityState": 2,
+            "propertyChangedList": []
+          },
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeObjectTypeItem": {
+        "codeObjectTypeId": 1002409,
+        "objectTypeCode": "Account",
+        "objectTypeName": "Account",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGjI=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "entityState": 2,
+    "propertyChangedList": []
+  },
+  "offerMarketplaceViewItem": {
+    "offerMarketplaceItem": {
+      "offerMarketplaceId": 1094011,
+      "offerId": 1094010,
+      "marketplaceId": 1000146,
+      "offerMarketplaceStartDateTime": "2019-08-15T00:00:00Z",
+      "offerQuantity": 1000,
+      "rowVersion": "AAAAAAAAWvQ=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "marketplaceItem": {
+      "marketplaceId": 1000146,
+      "marketplaceCode": "Groupon",
+      "marketplaceName": "Groupon",
+      "imageMarketplaceLogo": {
+        "imageId": 1089644,
+        "accountId": null,
+        "codeImageTypeId": 1000165,
+        "codeObjectTypeId": 1002450,
+        "objectInstanceId": 1000146,
+        "originalFileName": "groupon.svg",
+        "fileName": "groupon.svg",
+        "filePath": "https://someurl.com/qa01/marketplace/",
+        "size": 0.0,
+        "height": 0,
+        "width": 0,
+        "uploadedByUserId": 1,
+        "uploadedDateTime": "2019-09-05T21:22:59.537Z",
+        "rowVersion": "AAAAAAAASb8=",
+        "codeImageTypeItem": {
+          "codeImageTypeId": 1000165,
+          "imageTypeCode": "Logo",
+          "imageTypeName": "Logo",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAG84=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "codeObjectTypeItem": {
+          "codeObjectTypeId": 1002450,
+          "objectTypeCode": "Marketplace",
+          "objectTypeName": "Marketplace",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGls=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "fileUrl": "https://someurl.com/qa01/marketplace/groupon.svg",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "isDirect": false,
+      "sequence": 10,
+      "isActive": true,
+      "rowVersion": "AAAAAAAAG9k=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "entityState": 2,
+    "propertyChangedList": []
+  },
+  "offerLocationViewItem": {
+    "offerLocationItem": {
+      "offerLocationId": 1094012,
+      "offerId": 1094010,
+      "locationId": 1089687,
+      "rowVersion": "AAAAAAAAWx8=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "locationViewItem": {
+      "locationItem": {
+        "locationId": 1089687,
+        "accountAppVendorId": 1090030,
+        "codeLocaleId": 1000015,
+        "codeCurrencyId": 1002046,
+        "codeDiscountTypeId": 1000009,
+        "codeTaxGroupId": null,
+        "locationName": "The Spa",
+        "websiteUrl": null,
+        "phone": "8136277650",
+        "fax": null,
+        "defaultProductDiscountAmount": 20.00,
+        "isActive": true,
+        "codeLocaleItem": {
+          "codeLocaleId": 1000015,
+          "localeCode": "en-US",
+          "localeName": "US English Localization Culture",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGgc=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "codeCurrencyItem": {
+          "codeCurrencyId": 1002046,
+          "currencyCode": "USD",
+          "currencyName": "Dollar  (US)",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGfI=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "codeDiscountTypeItem": {
+          "codeDiscountTypeId": 1000009,
+          "discountTypeCode": "Dollar",
+          "discountTypeName": "$ Amount Discount",
+          "discountTypeCharacterCode": "$",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGhk=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "codeTaxGroupItem": {
+          "codeTaxGroupId": 0,
+          "accountId": 0,
+          "taxGroupCode": null,
+          "taxGroupName": null,
+          "sequence": null,
+          "isActive": false,
+          "rowVersion": "",
+          "entityState": 0,
+          "propertyChangedList": []
+        },
+        "rowVersion": "AAAAAAAASg0=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "addressItem": {
+        "addressId": 1090052,
+        "codeCountryAdminDivisionId": 1002321,
+        "codeObjectTypeId": 1002446,
+        "objectInstanceId": 1089687,
+        "addressLine1": "306 Town Centre Blvd",
+        "addressLine2": null,
+        "city": "Markham",
+        "postalCode": "L3R0Y6",
+        "timeZone": null,
+        "latitude": null,
+        "longitude": null,
+        "rowVersion": "AAAAAAAASg4=",
+        "codeCountryAdminDivisionItem": {
+          "codeCountryAdminDivisionId": 1002321,
+          "codeCountryId": 1002101,
+          "countryAdminDivisionCode": "ON",
+          "countryAdminDivisionName": "Ontario",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAG5Q=",
+          "codeCountryItem": {
+            "codeCountryId": 1002101,
+            "codeContinentId": 1000368,
+            "codeCurrencyId": 1001931,
+            "countryIso2Code": "CA",
+            "countryIso3Code": "CAN",
+            "countryIsoNumericCode": "124",
+            "countryFipsCode": "CA ",
+            "countryName": "Canada",
+            "sequence": null,
+            "isActive": true,
+            "rowVersion": "AAAAAAAAGrc=",
+            "codeContinentItem": {
+              "codeContinentId": 1000368,
+              "continentCode": "NA",
+              "continentName": "North America",
+              "sequence": null,
+              "isActive": true,
+              "rowVersion": "AAAAAAAAGos=",
+              "entityState": 2,
+              "propertyChangedList": []
+            },
+            "codeCurrencyItem": {
+              "codeCurrencyId": 1001931,
+              "currencyCode": "CAD",
+              "currencyName": "Dollar (CA)",
+              "sequence": null,
+              "isActive": true,
+              "rowVersion": "AAAAAAAAGX8=",
+              "entityState": 2,
+              "propertyChangedList": []
+            },
+            "entityState": 2,
+            "propertyChangedList": []
+          },
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "codeObjectTypeItem": {
+          "codeObjectTypeId": 1002446,
+          "objectTypeCode": "Location",
+          "objectTypeName": "Location",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGlc=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "accountAppVendorViewItem": {
+        "accountAppVendorItem": {
+          "accountAppVendorId": 1090030,
+          "accountId": 1090029,
+          "appVendorId": 1002503,
+          "isActive": true,
+          "rowVersion": "AAAAAAAASes=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "accountItem": {
+          "accountId": 1090029,
+          "codeLocaleId": 1000015,
+          "accountName": "B4TDemo",
+          "companyName": "B4TDemo",
+          "firstName": "B4T",
+          "lastName": "Demo",
+          "email": "B4TDemo@localhost.com",
+          "isActive": true,
+          "rowVersion": "AAAAAAAASeo=",
+          "codeLocaleItem": {
+            "codeLocaleId": 1000015,
+            "localeCode": "en-US",
+            "localeName": "US English Localization Culture",
+            "sequence": null,
+            "isActive": true,
+            "rowVersion": "AAAAAAAAGgc=",
+            "entityState": 2,
+            "propertyChangedList": []
+          },
+          "imageAccountLogo": {
+            "imageId": 1090032,
+            "accountId": 1090029,
+            "codeImageTypeId": 1000165,
+            "codeObjectTypeId": 1002409,
+            "objectInstanceId": 1090029,
+            "originalFileName": "8914_b4t-logo-00.png",
+            "fileName": "8914_b4t-logo-00.png",
+            "filePath": "https://someurl.com/qa01/account/",
+            "size": 412278.00000,
+            "height": 935,
+            "width": 525,
+            "uploadedByUserId": 1,
+            "uploadedDateTime": "2019-09-06T13:03:53.9Z",
+            "rowVersion": "AAAAAAAAWnE=",
+            "codeImageTypeItem": {
+              "codeImageTypeId": 1000165,
+              "imageTypeCode": "Logo",
+              "imageTypeName": "Logo",
+              "sequence": null,
+              "isActive": true,
+              "rowVersion": "AAAAAAAAG84=",
+              "entityState": 2,
+              "propertyChangedList": []
+            },
+            "codeObjectTypeItem": {
+              "codeObjectTypeId": 1002409,
+              "objectTypeCode": "Account",
+              "objectTypeName": "Account",
+              "sequence": null,
+              "isActive": true,
+              "rowVersion": "AAAAAAAAGjI=",
+              "entityState": 2,
+              "propertyChangedList": []
+            },
+            "fileUrl": "https://someurl.com/qa01/account/8914_b4t-logo-00.png",
+            "entityState": 2,
+            "propertyChangedList": []
+          },
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "appVendorItem": {
+          "appVendorId": 1002503,
+          "appVendorCode": "B4T",
+          "appVendorName": "Book4Time",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGWU=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "appVendorExternalMappingItem": {
+        "appVendorExternalMappingId": 1090051,
+        "accountAppVendorId": 1090030,
+        "codeObjectTypeId": 1002446,
+        "objectInstanceId": 1089687,
+        "externalReferenceId": "6156344",
+        "externalReferenceData": "8914",
+        "isGeneratedExternalReferenceId": false,
+        "createdDateTime": "2019-09-06T13:03:53.913Z",
+        "isActive": true,
+        "rowVersion": "AAAAAAAASgE=",
+        "codeObjectTypeItem": {
+          "codeObjectTypeId": 1002446,
+          "objectTypeCode": "Location",
+          "objectTypeName": "Location",
+          "sequence": null,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGlc=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    "entityState": 0,
+    "propertyChangedList": []
+  },
+  "productIds": [
+    1089689
+  ],
+  "addonIds": [],
+  "workforceIds": [],
+  "offerDayOfWeekViewItems": [
+    {
+      "offerDayOfWeekItem": {
+        "offerDayOfWeekId": 1094016,
+        "offerId": 1094010,
+        "codeDayOfWeekId": 1000003,
+        "maxQuantity": 100,
+        "codeDayOfWeekItem": {
+          "codeDayOfWeekId": 1000003,
+          "dayOfWeekCode": "1",
+          "dayOfWeekLongName": "Monday",
+          "dayOfWeekShortName": "Mon",
+          "dayOfWeekCharacterCode": "M",
+          "sequence": 1,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGhM=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "rowVersion": "AAAAAAAAWvw=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "offerDayOfWeekTimeItems": [
+        {
+          "offerDayOfWeekTimeId": 1094021,
+          "offerDayOfWeekId": 1094016,
+          "startTime": "08:00:00",
+          "endTime": "19:00:00",
+          "rowVersion": "AAAAAAAAWwI=",
+          "entityState": 2,
+          "propertyChangedList": []
+        }
+      ],
+      "entityState": 0,
+      "propertyChangedList": []
+    },
+    {
+      "offerDayOfWeekItem": {
+        "offerDayOfWeekId": 1094017,
+        "offerId": 1094010,
+        "codeDayOfWeekId": 1000004,
+        "maxQuantity": 100,
+        "codeDayOfWeekItem": {
+          "codeDayOfWeekId": 1000004,
+          "dayOfWeekCode": "2",
+          "dayOfWeekLongName": "Tuesday",
+          "dayOfWeekShortName": "Tue",
+          "dayOfWeekCharacterCode": "T",
+          "sequence": 2,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGhQ=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "rowVersion": "AAAAAAAAWv0=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "offerDayOfWeekTimeItems": [
+        {
+          "offerDayOfWeekTimeId": 1094022,
+          "offerDayOfWeekId": 1094017,
+          "startTime": "08:00:00",
+          "endTime": "19:00:00",
+          "rowVersion": "AAAAAAAAWwM=",
+          "entityState": 2,
+          "propertyChangedList": []
+        }
+      ],
+      "entityState": 0,
+      "propertyChangedList": []
+    },
+    {
+      "offerDayOfWeekItem": {
+        "offerDayOfWeekId": 1094018,
+        "offerId": 1094010,
+        "codeDayOfWeekId": 1000005,
+        "maxQuantity": 100,
+        "codeDayOfWeekItem": {
+          "codeDayOfWeekId": 1000005,
+          "dayOfWeekCode": "3",
+          "dayOfWeekLongName": "Wednesday",
+          "dayOfWeekShortName": "Wed",
+          "dayOfWeekCharacterCode": "W",
+          "sequence": 3,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGhU=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "rowVersion": "AAAAAAAAWv4=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "offerDayOfWeekTimeItems": [
+        {
+          "offerDayOfWeekTimeId": 1094023,
+          "offerDayOfWeekId": 1094018,
+          "startTime": "08:00:00",
+          "endTime": "19:00:00",
+          "rowVersion": "AAAAAAAAWwQ=",
+          "entityState": 2,
+          "propertyChangedList": []
+        }
+      ],
+      "entityState": 0,
+      "propertyChangedList": []
+    },
+    {
+      "offerDayOfWeekItem": {
+        "offerDayOfWeekId": 1094019,
+        "offerId": 1094010,
+        "codeDayOfWeekId": 1000006,
+        "maxQuantity": 100,
+        "codeDayOfWeekItem": {
+          "codeDayOfWeekId": 1000006,
+          "dayOfWeekCode": "4",
+          "dayOfWeekLongName": "Thursday",
+          "dayOfWeekShortName": "Thu",
+          "dayOfWeekCharacterCode": "T",
+          "sequence": 4,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGhY=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "rowVersion": "AAAAAAAAWv8=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "offerDayOfWeekTimeItems": [
+        {
+          "offerDayOfWeekTimeId": 1094024,
+          "offerDayOfWeekId": 1094019,
+          "startTime": "08:00:00",
+          "endTime": "19:00:00",
+          "rowVersion": "AAAAAAAAWwU=",
+          "entityState": 2,
+          "propertyChangedList": []
+        }
+      ],
+      "entityState": 0,
+      "propertyChangedList": []
+    },
+    {
+      "offerDayOfWeekItem": {
+        "offerDayOfWeekId": 1094020,
+        "offerId": 1094010,
+        "codeDayOfWeekId": 1000007,
+        "maxQuantity": 100,
+        "codeDayOfWeekItem": {
+          "codeDayOfWeekId": 1000007,
+          "dayOfWeekCode": "5",
+          "dayOfWeekLongName": "Friday",
+          "dayOfWeekShortName": "Fri",
+          "dayOfWeekCharacterCode": "F",
+          "sequence": 5,
+          "isActive": true,
+          "rowVersion": "AAAAAAAAGhc=",
+          "entityState": 2,
+          "propertyChangedList": []
+        },
+        "rowVersion": "AAAAAAAAWwE=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "offerDayOfWeekTimeItems": [
+        {
+          "offerDayOfWeekTimeId": 1094025,
+          "offerDayOfWeekId": 1094020,
+          "startTime": "08:00:00",
+          "endTime": "19:00:00",
+          "rowVersion": "AAAAAAAAWwY=",
+          "entityState": 2,
+          "propertyChangedList": []
+        }
+      ],
+      "entityState": 0,
+      "propertyChangedList": []
+    }
+  ],
+  "offerFilterItems": [
+    {
+      "offerFilterId": 1113090,
+      "offerId": 1094010,
+      "codeFilterTypeId": 1000156,
+      "codeFilterOperatorId": 1000153,
+      "filterValues": "2019-11-04",
+      "codeFilterTypeItem": {
+        "codeFilterTypeId": 1000156,
+        "filterTypeCode": "OfferDateException",
+        "filterTypeName": "Offer Date Exception",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgY=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeFilterOperatorItem": {
+        "codeFilterOperatorId": 1000153,
+        "filterOperatorCode": "NotEqualTo",
+        "filterOperatorName": "Not Equal To",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgM=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "rowVersion": "AAAAAAAArAg=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    {
+      "offerFilterId": 1113091,
+      "offerId": 1094010,
+      "codeFilterTypeId": 1000156,
+      "codeFilterOperatorId": 1000153,
+      "filterValues": "2019-11-05",
+      "codeFilterTypeItem": {
+        "codeFilterTypeId": 1000156,
+        "filterTypeCode": "OfferDateException",
+        "filterTypeName": "Offer Date Exception",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgY=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeFilterOperatorItem": {
+        "codeFilterOperatorId": 1000153,
+        "filterOperatorCode": "NotEqualTo",
+        "filterOperatorName": "Not Equal To",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgM=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "rowVersion": "AAAAAAAArAk=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    {
+      "offerFilterId": 1113092,
+      "offerId": 1094010,
+      "codeFilterTypeId": 1000156,
+      "codeFilterOperatorId": 1000153,
+      "filterValues": "2019-11-06",
+      "codeFilterTypeItem": {
+        "codeFilterTypeId": 1000156,
+        "filterTypeCode": "OfferDateException",
+        "filterTypeName": "Offer Date Exception",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgY=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeFilterOperatorItem": {
+        "codeFilterOperatorId": 1000153,
+        "filterOperatorCode": "NotEqualTo",
+        "filterOperatorName": "Not Equal To",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgM=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "rowVersion": "AAAAAAAArAo=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    {
+      "offerFilterId": 1113093,
+      "offerId": 1094010,
+      "codeFilterTypeId": 1000156,
+      "codeFilterOperatorId": 1000153,
+      "filterValues": "2019-11-27",
+      "codeFilterTypeItem": {
+        "codeFilterTypeId": 1000156,
+        "filterTypeCode": "OfferDateException",
+        "filterTypeName": "Offer Date Exception",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgY=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeFilterOperatorItem": {
+        "codeFilterOperatorId": 1000153,
+        "filterOperatorCode": "NotEqualTo",
+        "filterOperatorName": "Not Equal To",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgM=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "rowVersion": "AAAAAAAArAs=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    {
+      "offerFilterId": 1113094,
+      "offerId": 1094010,
+      "codeFilterTypeId": 1000156,
+      "codeFilterOperatorId": 1000153,
+      "filterValues": "2019-11-28",
+      "codeFilterTypeItem": {
+        "codeFilterTypeId": 1000156,
+        "filterTypeCode": "OfferDateException",
+        "filterTypeName": "Offer Date Exception",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgY=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeFilterOperatorItem": {
+        "codeFilterOperatorId": 1000153,
+        "filterOperatorCode": "NotEqualTo",
+        "filterOperatorName": "Not Equal To",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgM=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "rowVersion": "AAAAAAAArAw=",
+      "entityState": 2,
+      "propertyChangedList": []
+    },
+    {
+      "offerFilterId": 1113095,
+      "offerId": 1094010,
+      "codeFilterTypeId": 1000156,
+      "codeFilterOperatorId": 1000153,
+      "filterValues": "2019-11-29",
+      "codeFilterTypeItem": {
+        "codeFilterTypeId": 1000156,
+        "filterTypeCode": "OfferDateException",
+        "filterTypeName": "Offer Date Exception",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgY=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "codeFilterOperatorItem": {
+        "codeFilterOperatorId": 1000153,
+        "filterOperatorCode": "NotEqualTo",
+        "filterOperatorName": "Not Equal To",
+        "sequence": null,
+        "isActive": true,
+        "rowVersion": "AAAAAAAAGgM=",
+        "entityState": 2,
+        "propertyChangedList": []
+      },
+      "rowVersion": "AAAAAAAArA0=",
+      "entityState": 2,
+      "propertyChangedList": []
+    }
+  ],
+  "entityState": 2,
+  "propertyChangedList": []
+}

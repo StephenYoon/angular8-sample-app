@@ -1,0 +1,16 @@
+<div class="offer-card shadow mt-5">
+    <div class="card-body">
+        <p class="h4 font-weight-bold">Select Offer Exclusion Date(s)</p>
+            <div class="w-100 pb-2">
+                <p-calendar 
+                    [(ngModel)]="offerExcludeDatesSelection" 
+                    (onSelect)="updateDateSelection()"
+                    (onClose)="updateDateSelection()"
+                    selectionMode="multiple" 
+                    [style]="{'width':'65%'}"
+                    [inputStyle]="{'width':'60%'}"
+                    [showIcon]="true"></p-calendar>
+            </div>
+            <p class="pl-1 text-secondary"><small>{{selectedSummary}}</small></p>
+    </div>
+</div>  

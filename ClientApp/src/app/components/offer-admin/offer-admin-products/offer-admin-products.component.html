@@ -1,0 +1,67 @@
+<div class="offer-card shadow mt-5">
+    <div class="card-body">
+        <p class="h4 font-weight-bold">Services</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <!-- Page Loading Indicator -->
+        <div class="mb-2 d-flex justify-content-center">
+            <div class="spinner-grow text-primary mt-5" role="status" [hidden]="!isProductLoading()">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <!-- Offer Products (or Services) -->
+        <div *ngFor="let offerProduct of selectedProducts">
+            <div class="offer-admin-product-item">
+
+                <!-- Offer Product (or Service) -->
+                <div class="product-item row rounded p-3 mt-2 text-white">
+                    <div 
+                        class="col-10 cursor-pointer" 
+                        (click)="handleAddOnList(offerProduct)">
+                        {{offerProduct.product.productName}} | {{offerProduct.product.productOriginalPrice | currency}}
+                        <span class="badge badge-secondary" [hidden]="getAddOnCount(offerProduct.product.productId) == 0" >{{getAddOnCount(offerProduct.product.productId)}}</span>
+                    </div>
+                    
+                    <div class="col-2">
+                        <fa-icon 
+                            [icon]="faTrashAlt" 
+                            class="cursor-pointer pl-2 float-right" 
+                            (click)="removeProductClick(offerProduct.product.productId)">
+                        </fa-icon>
+                        <fa-icon 
+                            [icon]="offerProduct.showAddOns ? faChevronUp : faChevronDown" 
+                            class="cursor-pointer pr-3 float-right d-none d-lg-inline" 
+                            (click)="handleAddOnList(offerProduct)">
+                        </fa-icon>
+                    </div>
+                </div>
+                
+                <!-- Add-on items -->
+                <div 
+                    *ngFor="let addOn of offerProduct.addOns" 
+                    class="add-on-item cursor-pointer rounded ml-5 pl-2 pt-1 pb-1 m-0 text-white border" 
+                    [hidden]="!offerProduct.showAddOns" 
+                    (click)="selectAddOn(addOn)">
+                    Add-On | {{addOn.productName}} | {{addOn.productOriginalPrice | currency}}
+                    <fa-icon [icon]="faCheck" [hidden]="!addOn.isSelected" class="pl-3"></fa-icon>
+                    <fa-icon [icon]="addOn.isSelected ? faMinusCircle : faPlusCircle" class="pr-3 float-right"></fa-icon>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dropdown for adding new Offer Product -->
+        <div>
+            <div class="dropdown pt-2" [hidden]="hideAddProductDropdown()" (clickOutside)="closeProductList()">
+                <button class="btn btn-secondary dropdown-toggle" type="button" (click)="toggleProductList()">
+                    <fa-icon [icon]="faPlus"></fa-icon> Add Service
+                </button>
+                <div class="dropdown-menu" [hidden]="!isServiceListVisible">
+                    <a *ngFor="let product of availableProducts()" 
+                        class="dropdown-item cursor-pointer" 
+                        (click)="addProduct(product)">{{product.productName}} | {{product.productOriginalPrice | currency}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

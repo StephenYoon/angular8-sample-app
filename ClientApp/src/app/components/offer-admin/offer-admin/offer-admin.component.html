@@ -1,0 +1,105 @@
+<div class="offer-admin">
+  
+  <!-- Page Loading Indicator -->
+  <div class="d-flex justify-content-center">
+    <div class="spinner-grow text-primary mt-5" role="status" [hidden]="!isPageLoading()">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Offer Page -->
+  <div *ngIf="offer && products" class="">      
+    <div class="row">
+      <div class="col-md-8">
+        <!-- Offer Summary -->
+        <app-offer-admin-summary [offer]=offer></app-offer-admin-summary>
+        
+        <!-- Offer Services -->
+        <app-offer-admin-products 
+          [products]=products 
+          [productAddOnIds]=selectedAddOnIds
+          (selectedProductsUpdate)="onSelectedProductsUpdate($event)"
+          (selectedAddOnsUpdate)="onSelectedAddOnsUpdate($event)">
+        </app-offer-admin-products>
+
+        <!-- Offer Period -->
+        <app-offer-admin-period 
+          [offerDayOfWeekViewItems]=offer.offerDayOfWeekViewItems 
+          [offerStartDate]=offerStartDate 
+          [offerEndDate]=offerEndDate
+          (updateOfferStartEndDate)="onUpdateOfferStartEndDate($event)"
+          (onToggleAllBusinessHoursChange)="onToggleAllBusinessHoursChange($event)"
+          (updateOfferDayAndTimeRanges)="onUpdateOfferDayAndTimeRanges($event)"></app-offer-admin-period>
+
+        <!-- Exclusion Dates -->
+        <app-offer-admin-exclusion-dates 
+          [offerExcludeDatesSelection]=offerExcludeDatesSelection
+          (updatedOfferExcludeDatesSelection)="onUpdatedOfferExcludeDatesSelection($event)">
+        </app-offer-admin-exclusion-dates>
+
+        <!-- Pricing -->
+        <app-offer-admin-pricing 
+          [offerFullAmount]="offer.offerItem.offerFullAmount" 
+          [offerDiscountType]=offerDiscountType 
+          [offerDiscountAmount]="offer.offerItem.offerDiscountAmount"
+          (updatedDiscountAmount)="onUpdatedDiscountAmount($event)"></app-offer-admin-pricing>
+
+        <!-- Technicians -->
+        <app-offer-admin-technicians
+          [locationId]=locationId
+          [workforceIds]=selectedTechnicianIds
+          (selectedTechniciansUpdate)="onSelectedTechniciansUpdate($event)"
+          (selectedTechnicianToggleUpdate)="onSelectedTechnicianToggleUpdate($event)">
+        </app-offer-admin-technicians>
+
+        <!-- The End -->
+        <button type="button" class="btn btn-success mt-3">Save Offer</button>
+      </div>
+
+      <div class="col-md-4">
+        <div class="sticky-top pt-1 pl-2">
+          <img mat-card-image [src]="offer.accountViewItem.accountItem.imageAccountLogo.fileUrl">
+          <p class="pt-3 font-weight-bold"><span>{{offer.offerItem.offerTitle}}</span></p>
+          
+          <p class="pl-3">
+            <span class="text-secondary">From: {{offerStartDate.toDateString()}} To: {{offerEndDate.toDateString()}}</span>
+          </p>
+          
+          <p>
+            <span class="font-weight-bold">Pricing:</span><br />
+            <span class="pl-3 text-secondary">Discounted Price: {{this.offerDiscountAmount | currency}}</span>
+            <br />
+            <span class="pl-3 text-secondary text-muted"><del>Reguar Price: {{this.offerFullAmount | currency}}</del></span>
+          </p>
+
+          <span class="font-weight-bold">Services:</span>
+          <p *ngIf="!selectedProducts || !selectedProducts.length" class="pl-3 text-secondary">Please pick a service for this offer...</p>
+          <ul *ngIf="selectedProducts && selectedProducts.length">
+            <li *ngFor="let offerProduct of selectedProducts">
+              <span class="text-secondary">{{offerProduct.product.productName}} | {{offerProduct.product.productOriginalPrice | currency}}</span>
+            </li>
+          </ul>
+          
+          <span class="font-weight-bold">Excluded Date(s):</span>
+          <ul>
+            <li *ngFor="let excludedDate of offerExcludeDatesSelection">
+              <span class="text-secondary">{{excludedDate.toDateString()}}</span>
+            </li>
+          </ul>
+          
+          <span class="font-weight-bold">Technicians:</span>
+          <div class="pl-3" *ngIf="!offerAnyTechnician">
+            <span class="text-secondary">{{getSelectedTechniciansSummary()}}</span>
+          </div>
+          <div class="pl-3" *ngIf="offerAnyTechnician">
+            <span class="text-secondary">Any Technician</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End of Offer Page -->
+
+  </div>
+
+  <div class="pb-5"></div>
+</div>

@@ -1,0 +1,33 @@
+<div class="offer-listing">
+    
+  <!-- Page Loading Indicator -->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-primary mt-5" role="status" [hidden]="!isPageLoading()">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Actual stuff -->
+    <div class="card-body" [hidden]="isPageLoading()">
+        <p class="h4 font-weight-bold">Listing of Offers</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="card-columns">
+            <div class="card" *ngFor="let offer of offers" [routerLink]="['/offer/' + offer.offerItem.offerId]">
+                <img class="p-4 card-img-top" [src]="offer.accountViewItem.accountItem.imageAccountLogo.fileUrl">
+                <img class="card-img-top" [src]="offer.offerItem.imageOfferHeader.fileUrl">
+                <div class="card-body">
+                    <h5 class="card-title">{{offer.offerItem.offerTitle}}</h5>
+                    <p class="card-text">{{offer.offerItem.offerSummary}}</p>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            {{offer.offerItem.offerDiscountAmount | currency}} 
+                            <del class="pl-1" [hidden]="offer.offerItem.offerDiscountAmount == offer.offerItem.offerFullAmount">
+                                {{offer.offerItem.offerFullAmount | currency}}
+                            </del>
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>

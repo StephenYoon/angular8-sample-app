@@ -1,0 +1,23 @@
+<div class="offer-card shadow mt-5">
+    <div class="card-body">
+        <p class="h4 font-weight-bold">Select Technicians</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          
+        <div class="pl-1 pt-1 pb-3 clearfix">
+            <p-inputSwitch class="float-left" [(ngModel)]="toggleAnyTechnician" (onChange)="toggleChange($event)"></p-inputSwitch>
+            <div class="float-left pl-2">Any Technician</div>
+        </div>
+                
+        <mat-form-field class="w-50">
+            <mat-label>Technicians</mat-label>
+            <mat-select [formControl]="techniciansFormControl" (selectionChange)="selectionChange($event)" [disabled]="toggleAnyTechnician" multiple>
+                <mat-option *ngFor="let tech of technicianDtos" 
+                    [value]="tech.workforceId">
+                    {{tech.firstName}} {{tech.lastName}} ({{tech.genderCode}})
+                </mat-option>
+            </mat-select>
+            <mat-hint>{{selectedSummary}}</mat-hint>
+        </mat-form-field>
+
+    </div>
+</div> 

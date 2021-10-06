@@ -1,0 +1,33 @@
+<div class="offer-card shadow mt-5">
+  <div class="card-body">
+      <p class="h4 font-weight-bold">Pricing</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <form>
+        <div class="input-group-btn">
+            Enter Discount Amount:
+            <input type="text" 
+            numeric 
+            numericType="number" 
+            pInputText
+            placeholder="Enter discount amount" 
+            [(ngModel)]="currentDiscountAmount" 
+            (change)="updateDiscountedPrice()"
+            name="OfferDiscountInformation">
+
+          <button class="btn btn-default" type="submit">
+            <mat-icon matSuffix>
+              <fa-icon [icon]="faDollarSign" (click)="setDiscountType(1)" [ngClass]="(offerDiscountType != discountTypeEnum.DollarAmount)?'text-muted':'text-primary'"></fa-icon>
+            </mat-icon>
+            <mat-icon matSuffix>
+              <fa-icon [icon]="faPercent" (click)="setDiscountType(2)" [ngClass]="(offerDiscountType != discountTypeEnum.Percent)?'text-muted':'text-primary'"></fa-icon>
+            </mat-icon>
+          </button>
+        </div>   
+
+        <p class="pt-2">
+          <span class="pr-1">Discounted Price: <strong>{{currentDiscountPrice | currency}}</strong></span>
+          <span [hidden]="currentDiscountAmount == 0" class="text-muted"><del>({{offerFullAmount | currency}})</del></span>
+        </p>  
+      </form>
+  </div>
+</div>

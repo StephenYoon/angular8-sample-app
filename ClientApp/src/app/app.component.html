@@ -1,0 +1,13 @@
+<div id="app bg-light">
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <nav class="navbar navbar-expand navbar-light" *ngIf="currentUser">
+        <a class="nav-link nav-link" routerLink="/">Offer Listing</a>
+        <a class="nav-link" routerLink="/offer/1094010">Offer Admin</a>  
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+      </nav>
+    </div>
+
+    <router-outlet></router-outlet>
+  </div>
+</div>

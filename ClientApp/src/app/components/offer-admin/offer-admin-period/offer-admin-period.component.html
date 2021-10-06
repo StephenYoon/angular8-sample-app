@@ -1,0 +1,66 @@
+<div class="offer-card shadow mt-5">
+    <div class="card-body">
+        <p class="h4 font-weight-bold">Booking Period</p>
+        <p>The offer can be use on the following day and time, within the period. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <div class="pt-2 pb-4">
+            <div class="row">
+                <div class="col-lg float-right">
+                    <span class="h5">From</span>
+                    <p-calendar 
+                        class="pl-2"
+                        [(ngModel)]="offerStartDate" 
+                        (onSelect)="onStartEndDateChange()"
+                        selectionMode="single" 
+                        [showIcon]="true"></p-calendar>
+                </div>
+                <div class="col-lg float-right">
+                    <span class="h5">To</span>        
+                    <p-calendar 
+                        class="pl-2"
+                        [(ngModel)]="offerEndDate" 
+                        (onSelect)="onStartEndDateChange()"
+                        selectionMode="single" 
+                        [showIcon]="true"></p-calendar>
+                </div>
+            </div>
+        </div>
+        <div class="pl-1 pt-1 clearfix">
+            <p-inputSwitch class="float-left" [(ngModel)]="toggleAllBusinessHours" (onChange)="onToggleAllBusinessHoursChange()"></p-inputSwitch>
+            <div class="float-left pl-2">All business hours</div>
+        </div>
+
+        <div>
+            <div class="pt-2 row" *ngFor="let day of daysOfWeek"  [ngClass]="{'no-copy' : toggleAllBusinessHours}">
+                <div class="col-3 pl-2">
+                    <button 
+                        type="button" 
+                        class="btn btn-block text-truncate" 
+                        [ngClass]="{'btn-success' : day.daySelected, 'btn-light text-muted' : !day.daySelected, 'disabled' : toggleAllBusinessHours}" 
+                        (click)="onDayChange(day)">
+                        {{day.dayName}} <fa-icon [icon]="faCheck" class="pl-1 d-none d-lg-inline" [hidden]="!day.daySelected"></fa-icon>
+                    </button>
+                </div>
+                <div class="col-9">
+                    <input 
+                        name="day_dayCode"
+                        class="w-75" 
+                        [ngClass]="{'text-muted' : toggleAllBusinessHours || !day.daySelected}" 
+                        type="text" 
+                        pInputText 
+                        (change)="onCsvTimeRangeChange()"
+                        [(ngModel)]="day.csvTimeRanges"/>
+                </div>            
+            </div>
+        </div>
+
+        <div *ngIf="csvTimeRangeWarnings && csvTimeRangeWarnings.length" class="mt-2 alert alert-danger">
+            Detected warnings ¯\_(ツ)_/¯
+            <ul>
+                <li *ngFor="let warning of csvTimeRangeWarnings">
+                    <small>{{warning}}</small>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div> 
