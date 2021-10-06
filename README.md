@@ -1,5 +1,5 @@
 # ASP.NET Core with Angular
-Proof-of-concept Angular application to support the admin functions of creation/editing offers.
+Sample Angular application for fun.
 
 ## Prerequisites:
 - Visual Studio 2019
