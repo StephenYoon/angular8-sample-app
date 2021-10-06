@@ -1,4 +1,4 @@
-# ASP.NET Core Razor with Angular
+# ASP.NET Core with Angular
 Proof-of-concept Angular application to support the admin functions of creation/editing offers.
   
 ## Prerequisites:
