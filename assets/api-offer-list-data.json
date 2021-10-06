@@ -1,0 +1,162 @@
+[{
+    "offerItem": {
+      "offerId": 1094010,
+      "accountId": 1090029,
+      "offerStartDateTime": "2019-08-15T00:00:00Z",
+      "offerEndDateTime": "2019-12-31T00:00:00Z",
+      "offerFullAmount": 250,
+      "offerDiscountAmount": 50,
+      "offerTitle": "Deep Tissue 90min - Weekday - 50$ Off",
+      "offerSummary": "This deep-tissue treatment offers a comprehensive range of massage modalities that work to break down the body's adhesions and nodules, encouraging proper muscle function.",
+      "imageOfferHeader": {
+        "imageId": 1094540,
+        "accountId": 1090029,
+        "originalFileName": "",
+        "fileName": "1094010OfferHeader.jpg",
+        "filePath": "https://someurl.com/qa01/offer/",
+        "uploadedDateTime": "2019-11-01T14:08:33.083Z",
+        "fileUrl": "https://ihg.scene7.com/is/image/ihg/crowne-plaza-swemieh-4485209826-4x3?qlt=85,0&resMode=sharp2&op_usm=1.75,0.9,2,0"
+      }
+    },
+    "accountViewItem": {
+      "accountItem": {
+        "accountId": 1090029,
+        "codeLocaleId": 1000015,
+        "accountName": "B4TDemo",
+        "companyName": "B4TDemo",
+        "firstName": "B4T",
+        "lastName": "Demo",
+        "email": "B4TDemo@localhost.com",
+        "isActive": true,
+        "imageAccountLogo": {
+          "imageId": 1090032,
+          "accountId": 1090029,
+          "originalFileName": "8914_b4t-logo-00.png",
+          "fileName": "8914_b4t-logo-00.png",
+          "filePath": "https://someurl.com/qa01/account/",
+          "size": 412278,
+          "height": 935,
+          "width": 525,
+          "fileUrl": "https://someurl.com/qa01/account/8914_b4t-logo-00.png"
+        }
+      },
+      "addressItem": {
+        "addressId": 1090031,
+        "codeCountryAdminDivisionId": 1002321,
+        "codeObjectTypeId": 1002409,
+        "objectInstanceId": 1090029,
+        "addressLine1": "306 Town Centre Blvd",
+        "addressLine2": null,
+        "city": "Markham",
+        "postalCode": "L3R0Y6"
+      }
+    }
+  },
+  {
+    "offerItem": {
+      "offerId": 1094011,
+      "accountId": 1090029,
+      "offerStartDateTime": "2019-08-15T00:00:00Z",
+      "offerEndDateTime": "2019-12-31T00:00:00Z",
+      "offerFullAmount": 250,
+      "offerDiscountAmount": 50,
+      "offerTitle": "Mountain Side Treatment 90min - Weekday - 30$ Off",
+      "offerSummary": "This treatment offers a comprehensive range of massage modalities that work to bring you back to life.",
+      "imageOfferHeader": {
+        "imageId": 1094540,
+        "accountId": 1090029,
+        "originalFileName": "",
+        "fileName": "1094010OfferHeader.jpg",
+        "filePath": "https://someurl.com/qa01/offer/",
+        "uploadedDateTime": "2019-11-01T14:08:33.083Z",
+        "fileUrl": "https://www.ahstatic.com/photos/9741_ho_00_p_1024x768.jpg"
+      }
+    },
+    "accountViewItem": {
+      "accountItem": {
+        "accountId": 1090029,
+        "codeLocaleId": 1000015,
+        "accountName": "B4TDemo",
+        "companyName": "B4TDemo",
+        "firstName": "B4T",
+        "lastName": "Demo",
+        "email": "B4TDemo@localhost.com",
+        "isActive": true,
+        "imageAccountLogo": {
+          "imageId": 1090032,
+          "accountId": 1090029,
+          "originalFileName": "8914_b4t-logo-00.png",
+          "fileName": "8914_b4t-logo-00.png",
+          "filePath": "https://someurl.com/qa01/account/",
+          "size": 412278,
+          "height": 935,
+          "width": 525,
+          "fileUrl": "https://someurl.com/qa01/account/8914_b4t-logo-00.png"
+        }
+      },
+      "addressItem": {
+        "addressId": 1090031,
+        "codeCountryAdminDivisionId": 1002321,
+        "codeObjectTypeId": 1002409,
+        "objectInstanceId": 1090029,
+        "addressLine1": "306 Town Centre Blvd",
+        "addressLine2": null,
+        "city": "Markham",
+        "postalCode": "L3R0Y6"
+      }
+    }
+  },
+  {
+    "offerItem": {
+      "offerId": 1094012,
+      "accountId": 1090029,
+      "offerStartDateTime": "2019-08-15T00:00:00Z",
+      "offerEndDateTime": "2019-12-31T00:00:00Z",
+      "offerFullAmount": 250,
+      "offerDiscountAmount": 50,
+      "offerTitle": "Stonewall Enclosure Treatment 90min - Weekday - 70$ Off",
+      "offerSummary": "This treatment offers a unique experience where you isolate yourself for a calm and peaceful recovery.",
+      "imageOfferHeader": {
+        "imageId": 1094540,
+        "accountId": 1090029,
+        "originalFileName": "",
+        "fileName": "1094010OfferHeader.jpg",
+        "filePath": "https://someurl.com/qa01/offer/",
+        "uploadedDateTime": "2019-11-01T14:08:33.083Z",
+        "fileUrl": "https://pix10.agoda.net/hotelImages/292/292633/292633_15031711310026149061.jpg?s=1024x768"
+      }
+    },
+    "accountViewItem": {
+      "accountItem": {
+        "accountId": 1090029,
+        "codeLocaleId": 1000015,
+        "accountName": "B4TDemo",
+        "companyName": "B4TDemo",
+        "firstName": "B4T",
+        "lastName": "Demo",
+        "email": "B4TDemo@localhost.com",
+        "isActive": true,
+        "imageAccountLogo": {
+          "imageId": 1090032,
+          "accountId": 1090029,
+          "originalFileName": "8914_b4t-logo-00.png",
+          "fileName": "8914_b4t-logo-00.png",
+          "filePath": "https://someurl.com/qa01/account/",
+          "size": 412278,
+          "height": 935,
+          "width": 525,
+          "fileUrl": "https://someurl.com/qa01/account/8914_b4t-logo-00.png"
+        }
+      },
+      "addressItem": {
+        "addressId": 1090031,
+        "codeCountryAdminDivisionId": 1002321,
+        "codeObjectTypeId": 1002409,
+        "objectInstanceId": 1090029,
+        "addressLine1": "306 Town Centre Blvd",
+        "addressLine2": null,
+        "city": "Markham",
+        "postalCode": "L3R0Y6"
+      }
+    }
+  }]
