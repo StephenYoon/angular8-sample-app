@@ -11,7 +11,7 @@ Proof-of-concept Angular application to support the admin functions of creation/
 
 ## Deploying to github pages:
 `npm install -g angular-cli-ghpages`  
-`ng build --prod --base-href="https://stephenyoon.github.io/AspCoreSpa/"`  
+`ng build --prod --base-href="https://stephenyoon.github.io/angular8-sample-app/"`  
 `angular-cli-ghpages --dir=dist`
   
-Deploys to: https://stephenyoon.github.io/AspCoreSpa/
+Deploys to: https://stephenyoon.github.io/angular8-sample-app/
